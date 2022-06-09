@@ -18,7 +18,7 @@ const restorantData = {
         }
     ],
     waitors: [
-        {name: 'Alice', age: 20}, {name: 'John', age: 24}
+        {name: 'Alice', age: 23}, {name: 'John', age: 24}
     ],
     averageLunchPrice: '20$',
     openNow: true
@@ -46,7 +46,7 @@ console.log(isAverageLunchPriceTrue(restorantData.menu[0], restorantData.menu[1]
 function transferWaitors(data) {
     const copy = Object.assign({}, data);
 
-    copy.waitors = [{name: 'Mike', age: 23}];
+    copy.waitors = [{name: 'Mike', age: 22}];
     return copy;
 }
 
